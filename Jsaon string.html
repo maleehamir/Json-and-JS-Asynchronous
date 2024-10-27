@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>Jason sTring In Javscript</h1>
+        <p id="result"></p>
+        <script>
+            var myobj={name:"maleeha", age:13, class:7};
+            var myJson=JSON.stringify(myobj);
+            var newobject=JSON.parse(myJson);
+            document.getElementById("result").innerHTML=newobject.name+newobject.age;
+        </script>
+    </body>
+</html>
